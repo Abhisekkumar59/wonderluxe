@@ -23,10 +23,10 @@ const App = () => (
           <Navbar />
           <main className="flex-1">
             <Routes>
-              <Route path="/wanderlux" element={<Index />} />
-              <Route path="/wanderlux/contact" element={<Contact />} />
-              <Route path="/wanderlux/packages" element={<Packages />} />
-              <Route path="/wanderlux/blog" element={<Blog />} />
+              <Route path="/" element={<Index />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/packages" element={<Packages />} />
+              <Route path="/blog" element={<Blog />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
